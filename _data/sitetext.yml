@@ -170,14 +170,13 @@ en-AU:
 es: &DEFAULT_ES
   header:
     title: ¡Bienvenido a Hold Onn!
-    text: En construcción, regresa más tarde.
-    #text: Marketing y Publicidad
+    text: Marketing y Publicidad
     button: Ver más
     buttonlink: "#servicios"
 
   services:
     title: "Servicios"
-    text: "Lorem ipsum"
+    text: "Conoce los servicios que tenemos disponibles para ti."
     section: servicios
     list:
       - title: "Comercio Electrónico"
@@ -192,13 +191,13 @@ es: &DEFAULT_ES
 
   portfolio:
     title: "Portafolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Conoce nuestro portafolio de trabajo."
     section: portafolio
     closebutton: "Cerrar Proyecto"
 
   timeline:
     title: "Cronología"
-    text: "Lorem ipsum timeline"
+    text: "Conoce nuestra historia."
     section: cronologia
     # left is the default
     #start_align: "left"
@@ -252,8 +251,8 @@ es: &DEFAULT_ES
 
   team:
     title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    text: "Conoce al equipo detrás de Hold Onn."
+    subtext: Somos un equipo joven, dinámico y comprometido a hacer tu marca relevante.
     section: equipo
     people:
       - name: "David Sánchez"
@@ -298,8 +297,8 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
+    title: "Contáctanos"
+    text: "Mándanos un correo y te contactaremos lo más pronto posible."
     section: contacto
     name: "Nombre*"
     name-validation: "Por favor ingrese su nombre."
