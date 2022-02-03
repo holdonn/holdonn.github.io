@@ -170,7 +170,7 @@ en-AU:
 es: &DEFAULT_ES
   header:
     title: ¡Bienvenido a Hold Onn!
-    text: Marketing y Publicidad
+    text: Marketing y Redes
     button: Ver más
     buttonlink: "#servicios"
 
@@ -179,52 +179,52 @@ es: &DEFAULT_ES
     text: "Conoce los servicios que tenemos disponibles para ti."
     section: servicios
     list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
+      - title: "Logos"
+        #desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-blog #find more at https://fontawesome.com/icons
+      - title: "Comerciales"
+        #desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-video
+      - title: "Estrategias"
+        #desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-chess-pawn
+      - title: "Eslogan"
+        #desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-sms  
+      - title: "Buyer Persona"
+        #desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-user-check
+      # - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+      #   desc: "Su descripción aquí, soporte completo de **Markdown**"
+      #   icon: fab fa-markdown
 
   portfolio:
     title: "Portafolio"
-    text: "Conoce nuestro portafolio de trabajo."
+    text: "Conoce a nuestros clientes."
     section: portafolio
     closebutton: "Cerrar Proyecto"
 
   timeline:
-    title: "Cronología"
-    text: "Conoce nuestra historia."
-    section: cronologia
+    title: "Paquetes"
+    text: "Conoce nuestra oferta"
+    section: paquetes
     # left is the default
     #start_align: "left"
     events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Paquete Básico"
+        year: "$1499"
+        desc: " * Plan de marketing para el período propuesto \n * Manejo de redes \n * 7 diseños de folletos digitales (mensuales) \n * Creación de redes (en caso de no tener aún)"
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        align: right
+      - title: "Paquete Premium"
+        year: "$2499"
+        desc: " * Plan de marketing para el período propuesto \n * Manejo de redes \n * 7 diseños de folletos digitales (mensuales) \n * Creación de redes (en caso de no tener aún) \n * 3 comerciales animados (música y voz)"
         image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
+    end: "¡Pregunta por algo personalizado!"
 
   about:
     title: "Sobre nosotros"
@@ -236,8 +236,8 @@ es: &DEFAULT_ES
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
+      - title: "Fisioderm"
+        url: https://www.facebook.com/Fisioderm-100234969230091/
         logo: assets/img/clients/envato.jpg
       - title: "designmodo"
         url: https://github.com/raviriley/agency-jekyll-theme
@@ -250,10 +250,10 @@ es: &DEFAULT_ES
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Conoce al equipo detrás de Hold Onn."
+    title: "Conócenos"
+    text: "Somos una agencia de marketing vanguardista, innovadora y estratégica."
     subtext: Somos un equipo joven, dinámico y comprometido a hacer tu marca relevante.
-    section: equipo
+    section: conocenos
     people:
       - name: "David Sánchez"
         role: "Marketing y Ventas"
@@ -268,26 +268,6 @@ es: &DEFAULT_ES
       - name: "Fernando Carvajal"
         role: "Producción de Video"
         image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Francisco Aguirre"
-        role: "Edición, Animación y Filmación de Video"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Salvador Soto"
-        role: "Administrativo"
-        image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter

@@ -40,10 +40,10 @@ es: &DEFAULT_ES
       section: servicios
     - title: "Portafolio"
       section: portafolio
-    - title: "Cronología"
-      section: cronologia
-    - title: "Equipo"
-      section: equipo
+    - title: "Paquetes"
+      section: paquetes
+    - title: "Conócenos"
+      section: conocenos
     - title: "Contacto"
       section: contacto
     # - title: "Fuente de la plantilla"
