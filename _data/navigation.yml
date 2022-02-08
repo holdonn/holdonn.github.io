@@ -36,14 +36,14 @@ en-AU:
 # -------
 es: &DEFAULT_ES
   nav:
-    - title: "Servicios"
-      section: servicios
-    - title: "Portafolio"
-      section: portafolio
-    - title: "Paquetes"
-      section: paquetes
     - title: "Conócenos"
       section: conocenos
+    - title: "Servicios"
+      section: servicios
+    - title: "Paquetes"
+      section: portafolio
+    - title: "Paquetes"
+      section: portafolio
     - title: "Contacto"
       section: contacto
     # - title: "Fuente de la plantilla"
